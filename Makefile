@@ -1,4 +1,4 @@
-all: clean en zh
+all: en zh clean
 
 en: resume.tex
 	xelatex resume.tex
@@ -11,3 +11,5 @@ resume-zh: resume.tex
 
 clean:
 	rm -f *.log *.aux *.bbl *.blg *.synctex.gz *.out *.toc *.lof *.idx *.ilg *.ind *.cut *.fls *.fdb_latexmk resume-zh.tex __latexindent_temp.tex
+
+.PHONY: clean
