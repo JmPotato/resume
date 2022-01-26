@@ -19,11 +19,11 @@
 }
 
 \section{\faGraduationCap\ \en{Education}\zh{教育经历}}
-\en{\datedsubsection{\textbf{Beijing University of Posts and Telecommunications}, Undergraduate}{09/2017 -- Present}}
-\zh{\datedsubsection{\textbf{北京邮电大学}, 在读本科}{2017/09 -- 至今}}
+\en{\datedsubsection{\textbf{Beijing University of Posts and Telecommunications}, Undergraduate}{09/2017 -- 06/2021}}
+\zh{\datedsubsection{\textbf{北京邮电大学}, 本科}{2017/09 -- 2021/06}}
 \begin{itemize}
-      \item \en{Major: Computer Science and Technology, School of Computer. Anticipated graduation date: 06/2021}
-            \zh{计算机科学与技术，计算机学院，2021 年毕业}
+      \item \en{Major: Computer Science and Technology, School of Computer. Graduation date: 06/2021}
+            \zh{计算机科学与技术，计算机学院，2021 年 6 月毕业}
 \end{itemize}
 
 \section{\faUsers\ \en{Work Experience}\zh{工作经历}}
@@ -40,59 +40,52 @@
             \zh{学到了很多关于 Web 开发与 DevOps 的知识}
 \end{itemize}
 
-\en{\datedsubsection{\textbf{\href{https://aws.amazon.com/}{AWS Chine Inc.}}, Beijing, China}{05/2020 -- 06/2020}}
-\zh{\datedsubsection{\textbf{\href{https://www.amazonaws.cn/}{亚马逊 AWS 中国（AWS China Inc.）}}}{2020/05 -- 2020/06}}
-\en{\role{Solution Architecture}{Solution Architect Intern}}
-\zh{\role{解决方案架构}{解决方案架构师实习}}
-\begin{itemize}
-      \item \en{Responsible for the communication with business customers, build AWS architecture meets their needs, and provide them with mature cloud architecture solutions.}
-            \zh{负责 ToB 客户的技术接洽沟通，搭建符合其需求的 AWS 产品架构，为客户提供成熟的云架构解决方案}
-\end{itemize}
-
 \en{\datedsubsection{\textbf{\href{https://pingcap.com/en/}{PingCAP Inc.}}, Beijing, China}{06/2020 -- Present}}
 \zh{\datedsubsection{\textbf{\href{https://pingcap.com/zh/}{北京平凯星辰科技发展有限公司（PingCAP Inc.）}}}{2020/06 -- 至今}}
 \en{\role{Database R\&D}{Scheduling R\&D Intern}}
-\zh{\role{数据库研发}{调度研发实习}}
+\zh{\role{数据库研发}{研发工程师实习}}
 \begin{itemize}
-      \item \en{Responsible for the development of TiDB's scheduling component PD.}
-            \zh{负责 TiDB 调度组件 PD 的研发工作，调优重构了部分模块，设计并参与了跨数据中心分布式授时服务的开发与维护}
-      \item \en{Learned a lot about Distributed System.}
-            \zh{学到了很多关于分布式系统的知识}
+      \item \en{Responsible for the development of TiDB's scheduling component PD. Tuned and refactored some modules, designed and participated in the development and maintenance of distributed TSO services across data centers.}
+            \zh{负责 TiDB 调度组件 PD 的研发工作。调优重构了部分模块，设计并参与了跨数据中心分布式授时服务的开发与维护}
+      \item \en{Responsible for the development of TiDB. Participated in the design, development and testing of the function/syntax for the Stale Read, i.e, non-consistent read.}
+            \zh{负责 TiDB 的研发工作。参与了 Stale Read 非一致性读的功能语法设计、开发与测试等工作}
+      \item \en{Learned a lot about the distributed system and database.}
+            \zh{学到了很多关于分布式系统和数据库的知识}
+\end{itemize}
+\en{\role{Database R\&D}{Scheduling R\&D}}
+\zh{\role{数据库研发}{研发工程师}}
+\begin{itemize}
+      \item \en{Responsible for the design, development and testing of TSO Scalability related features. Optimized and alleviated the performance bottleneck of TSO service caused by Go Runtime scheduling in high concurrency scenarios, improved TiDB transaction performance by 260\%+ TPS, and reduced latency by 80\% milliseconds.}
+            \zh{负责 TSO Scalability 相关功能的设计，开发和测试。优化缓解了高并发场景下 Go Runtime 调度导致的 TSO 服务性能瓶颈问题，提升 TiDB 事务性能 260\%+ TPS，降低延迟 80\% 毫秒}
+      \item \en{Refactored the Storage module of the PD component to standardize the underlying abstraction and decouple multiple modules, enhancing the pluggability of the underlying storage and the upper layer application.}
+            \zh{重构了 PD 组件的 Storage 模块，规范底层抽象并解耦多个模块，加强了底层存储和上层应用的可插拔性}
 \end{itemize}
 
 \section{\faGithubAlt\ \en{Portfolios}\zh{个人项目}}
-\datedsubsection{\textbf{Infomatter}}{}
-\en{Information aggregation system based on machine learning}
-\zh{基于机器学习的信息聚合系统}
+\datedsubsection{\textbf{MVCC 时光机}}{\url{https://github.com/Long-Live-the-DoDo/rfc}}
+\en{Flashback function based on the TiDB MVCC}
+\zh{基于 TiDB MVCC 特性实现的 Flashback 功能}
 \begin{itemize}
-      \item \en{Won the first prize of the BUPT Innovation and Entrepreneurship Competition, certified as the city-level innovation.}
-            \zh{项目荣获北京邮电大学创新创业大赛一等奖，通过北京市级高等院校大创项目认定}
-      \item \en{Developed and maintained RESTful API service.}
-            \zh{开发维护相关 RESTful API 服务}
-      \item \en{Implemented the front-end and back-end services for Infomatter Web.}
-            \zh{实现了 Infomatter Web 版的前后端服务}
-      \item \en{Main language and framework used are Node.js + Express.}
-            \zh{语言和框架为 Node.js + Express}
+      \item \en{Won third prize at TiDB Hackathon 2021.}
+            \zh{项目获得 TiDB Hackathon 2021 三等奖}
+      \item \en{Based on TiDB MVCC data to enable sub-second data archival, with the ability to restore specified tables to any existing historical version via Flashback SQL.}
+            \zh{基于 TiDB 的 MVCC 数据实现了亚秒级别的数据回档，能够通过 Flashback SQL 将指定表还原至现存的任意历史版本}
 \end{itemize}
 
-\datedsubsection{\textbf{raft-kv(W.I.P)}}{\url{https://github.com/JmPotato/raft-kv}}
-\en{Distributed key-value database based on Raft and Percolator models}
-\zh{基于 Raft 与 Percolator 模型的分布式键值数据库}
+\datedsubsection{\textbf{wince-tp(W.I.P)}}{\url{https://github.com/JmPotato/wince-tp}}
+\en{A thread pool implementation that supports Rust asynchronous programming}
+\zh{一个支持 Rust 异步编程的线程池实现}
 \begin{itemize}
-      \item \en{Learned from MIT 6.824 and PingCAP's Talent Plan.}
-            \zh{学习 MIT 6.824 和 PingCAP Talent Plan 后完成}
-      \item \en{Implemented Raft distributed consensus algorithm and Google Percolator transaction model in Rust.}
-            \zh{使用 Rust 开发，基于 Raft 分布式共识算法和 Google Percolator 事务模型实现}
+      \item \en{At present, only a prototype is implemented based on the work-stealing scheduling algorithm, after then I want to transform it into a TPC-like sharding model.}
+            \zh{目前只基于工作窃取调度算法实现了一个雏形，后续想改造成类似 TPC 的 Sharding 模型}
 \end{itemize}
 
-\datedsubsection{\textbf{Pomash}}{\url{https://github.com/JmPotato/Pomash}}
-\en{Lightweight blog system based on Tornado Web Framework}
-\zh{基于 Tornado Web Framework 的轻量级博客系统}
+\datedsubsection{\textbf{fp-growth-rs}}{\url{https://github.com/JmPotato/fp-growth-rs}}
+\en{An implementation of the FP-Growth algorithm in pure Rust, which is inspired by enaeseth/python-fp-growth.}
+\zh{FP-Growth 算法的 Rust 实现，项目灵感来自于 enaeseth/python-fp-growth}
 \begin{itemize}
-      \item \en{Based on Tornado Web Framework, use Sqlite3 to store data, separated front-end and back-end models, have certain scalability.}
-            \zh{基于 Tornado Web Framework 开发，使用 Sqlite3 存储数据，前后端分离，有一定扩展性}
-      \item \en{Support Markdown syntax, LaTeX formula rendering, themes changing, Dropbox backup and other functions.}
-            \zh{支持 Markdown 语法，LaTeX 公式渲染，主题更换以及 Dropbox 备份等功能}
+      \item \en{A Rust implementation for frequent pattern mining algorithm, completed for the purpose of graduation design, and then found that Rust lacks similar libraries, so make it open-source.}
+            \zh{一个用于进行频繁项集挖掘算法的 Rust 实现，出于实现毕业设计的目的完成，后发现 Rust 缺少同类库，遂将其单独开源}
 \end{itemize}
 
 \datedsubsection{\textbf{dopamine}}{\url{https://github.com/JmPotato/dopamine}}
@@ -107,16 +100,6 @@
             \zh{使用了类 Flask 的路由功能和 HTTP 封装}
 \end{itemize}
 
-% \section{\faLinkedin\ \en{Personal Experience}\zh{个人经历}}
-% \en{\datedsubsection{\textbf{BUPT BYRIO Open Source Community}, Beijing}{2018 -- Present}}
-% \zh{\datedsubsection{\textbf{北京邮电大学 BYRIO 开源社区}}{2018 -- 至今}}
-% \en{\role{Developer}{Tec Department}}
-% \zh{\role{开发者}{技术部}}
-% \begin{itemize}
-%       \item \en{Participate in the development and maintenance of community products, such as: campus gym appointment system and GPA calculation script.}
-%             \zh{参加北邮校园相关产品的开发与维护，如：校园健身房预约系统，北邮教务绩点查询计算脚本}
-% \end{itemize}
-
 \section{\faCogs\ \en{Skills}\zh{技能}}
 \begin{itemize}[parsep=0.25ex]
       \item \en{\textbf{Programming Language}:
@@ -129,18 +112,20 @@
                   了解 Rust/JavaScript/C/C++ 等}
 
       \item \en{\textbf{Distributed System/Database}:
+                  Experience in tuning and deployment of TiDB, know the basic use of K8s and tidb-operator.
                   taken course MIT 6.824 and PingCAP's Talent Plan,
                   understand the basic theory of distributed system/database,
                   including but not limited to algorithms such as Raft and Percolator.}
             \zh{\textbf{分布式系统/数据库}:
-                  自主学习了 MIT 6.824 和 PingCAP's Talent Plan 课程，
+                  有分布式数据库 TiDB 的调优开发以及部署经验，了解 K8s 以及 tidb-operator 的基本使用。
+                  自主学习了 MIT 6.824 和 PingCAP's Talent Plan 等课程，
                   了解分布式系统/数据库的基本理论，包括但不限于 Raft 和 Percolator 等算法}
 
       \item \en{\textbf{Developing Tool}:
                   familiar with Linux-based programming,
-                  have experience with team tools like Git, Slack, Trello, etc.}
+                  have experience with team tools like Git, Jira, etc.}
             \zh{\textbf{开发工具}:
-                  熟悉 Linux，有 Git、Slack、Trello 等团队协作工具的使用经验}
+                  熟悉 Linux，有 Git、Jira 等团队协作工具的使用经验}
 
       \item \en{\textbf{Others}:
                   have experience using MySQL/Redis/Kafka, 
@@ -154,16 +139,18 @@
 
 \section{\faInfo\ \en{Miscellaneous}\zh{杂项}}
 \begin{itemize}[parsep=0.25ex]
-      \item \en{Personal tags: self-driven, quick learner, earnest curiosity, open source lover.}
-            \zh{个人标签：自驱动，学习能力强，做事认真，保持好奇，热爱开源}
-      \item \en{Interests: Distributed System, Database, Cloud and Web application.}
-            \zh{兴趣领域：分布式系统、数据库、云以及 Web 应用等}
-      \item \en{Open-source Contributions: contributed to \texttt{@rust-analyzer @tikv @tidb @talent-plan @etcd}, etc.}
-            \zh{开源贡献: 为 \texttt{@rust-analyzer @tikv @tidb @talent-plan @etcd} 等项目组织贡献过代码}
-      \item \en{Selected Courses: OS, Network, Database, Algorithm, Compiler Principle.}
-            \zh{主修课程：操作系统、计算机网络、数据库系统原理、算法设计与分析、编译原理}
-      \item \en{Language Level: English CET-6, able to conduct daily conversation and essay reading.}
-            \zh{语言水平：英语 CET-6，能够进行日常对话和论文阅读}
+      \item \en{\textbf{Open-source Contributions}: contributed to \texttt{@rust-analyzer @etcd @tikv @tidb @talent-plan}, etc.}
+            \zh{\textbf{开源贡献}: 为 \texttt{@rust-analyzer @etcd @tikv @tidb @talent-plan} 等项目组织贡献过代码}
+      \item \en{\textbf{Passionate about sharing}: I have been writing on my personal blog for years and have accumulated several high-quality technical sharing articles.}
+            \zh{\textbf{热爱分享}: 在个人博客上常年坚持写作，积累高质量技术分享文章数篇}
+      \item \en{\textbf{Language Level}: English CET-6, ability to conduct daily conversation and essay reading, experience in English presentation.}
+            \zh{\textbf{语言水平}：英语 CET-6，能够进行日常对话和论文阅读，有英文演讲经验}
+      \item \en{\textbf{Personal tags}: self-driven, quick learner, earnest curiosity, open source lover.}
+            \zh{\textbf{个人标签}：自驱动，学习能力强，做事认真，保持好奇，热爱开源}
+      \item \en{\textbf{Interests}: Distributed System, Database, Cloud and Web application.}
+            \zh{\textbf{兴趣领域}：分布式系统、数据库、云以及 Web 应用等}
+      \item \en{\textbf{Selected Courses}: OS, Network, Database, Algorithm, Compiler Principle.}
+            \zh{\textbf{主修课程}：操作系统、计算机网络、数据库系统原理、算法设计与分析、编译原理}
 \end{itemize}
 
 \end{document}
